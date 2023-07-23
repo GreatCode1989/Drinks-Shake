@@ -12,12 +12,12 @@
   </div>
   <Navbar />
   <div>
-    <TheRandom :drinks="drinks"></TheRandom>
+    <TheRandomOfHome :drinks="drinks"></TheRandomOfHome>
   </div>
 </template>
 
 <script setup>
-import TheRandom from "./TheRandom.vue";
+import TheRandomOfHome from "./TheRandomOfHome.vue";
 import Navbar from "../components/Navbar";
 import { onMounted, ref } from "vue";
 import axiosClient from "@/axiosClient";
