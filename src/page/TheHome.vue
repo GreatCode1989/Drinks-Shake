@@ -20,7 +20,7 @@
 import TheRandomOfHome from "./TheRandomOfHome.vue";
 import Navbar from "../components/Navbar";
 import { onMounted, ref } from "vue";
-import axiosClient from "@/axiosClient";
+import axiosClient from "../axiosClient";
 
 const drinks = ref({});
 

@@ -8,7 +8,7 @@
 
 <script setup>
 import { ref, defineEmits } from "vue";
-import axiosClient from "@/axiosClient";
+import axiosClient from "../axiosClient";
 
 const drinks = ref(null);
 const selectOption = ref("");
